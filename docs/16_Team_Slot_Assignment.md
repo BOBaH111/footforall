@@ -96,3 +96,27 @@ assignedPosition может отличаться от requestedPosition.
 Система должна иметь возможность объяснить причину назначения игрока на позицию, отличающуюся от requestedPosition.
 
 Причиной назначения является обеспечение максимально равных команд при сохранении структуры состава.
+
+
+
+# BR-ASSIGNMENT-011
+
+Assignment является единственным источником информации о фактической роли игрока в матче.
+
+---
+
+# BR-ASSIGNMENT-012
+
+Все игровые события ссылаются на TeamSlotAssignment.
+
+---
+
+# BR-ASSIGNMENT-013
+
+После подтверждения Assignment становится неизменяемой частью истории матча.
+
+---
+
+# BR-ASSIGNMENT-014
+
+Assignment является связующим звеном между Registration, Match Events, Match Protocol и Player Performance Profile.
