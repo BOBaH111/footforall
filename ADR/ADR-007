@@ -1,0 +1,2 @@
+TeamFormationValidationService временно использует getPrimaryPosition(). 
+После реализации полного Assignment Engine проверка должна учитывать все допустимые позиции игрока, а не только первую предпочтительную.
