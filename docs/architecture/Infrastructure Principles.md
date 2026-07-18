@@ -188,3 +188,17 @@ Simple attributes should be added to the existing aggregate.
 New business concepts should become separate entities or aggregates.
 
 This keeps the Aggregate Root focused while allowing the system to grow without major refactoring.
+
+---
+
+## Version Pinning
+
+Core infrastructure libraries must use explicitly pinned major versions.
+
+Examples:
+
+- NestJS
+- Prisma
+- PostgreSQL driver
+
+Major version upgrades are performed only after architectural review and successful testing.
