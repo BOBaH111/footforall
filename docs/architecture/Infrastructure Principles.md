@@ -176,3 +176,15 @@ testable,
 and invisible to the business logic.
 
 The Domain must remain the heart of Footforall.
+
+---
+
+## Aggregate Evolution
+
+Aggregates are expected to evolve.
+
+Simple attributes should be added to the existing aggregate.
+
+New business concepts should become separate entities or aggregates.
+
+This keeps the Aggregate Root focused while allowing the system to grow without major refactoring.
